@@ -1,0 +1,124 @@
+body{
+    background-image: url("images/cube.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+.first-gif p{
+    text-align: center;
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    right: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid black;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.first-gif img{
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    width: 15%; 
+    height: auto;
+    
+}
+
+.second-gif p{
+    text-align: center;
+    position: absolute;
+    top: 43%;
+    left: 25%;
+    right: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid black;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.second-gif img{
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 39%;
+    left: 8%;
+    width: 15%; 
+    height: auto;
+    
+}
+
+
+.third-gif img{
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    width: 15%; 
+    height: auto;
+}
+
+.third-gif p{
+        text-align: center;
+        position: absolute;
+        top:75%;
+        left: 25%;
+        right: 20%;
+        font-family: 'Courier New', Courier, monospace;
+        border: solid black;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+        font-size: 25px;
+        font-weight: bold;
+
+}
+
+
+
+.Yes{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    top: 89%;
+    left: 85%;
+    transition: all 0.3s ease;
+    
+}
+
+
+
+button{
+    background: #ffffff;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    height: 80px;
+    width: 200px;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+

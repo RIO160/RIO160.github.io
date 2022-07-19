@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="firstpage.css">
+    <title>Confession</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+         <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+        </nav>
+    
+
+    <div class="lamp-container">
+        <img src="images/lamp.png" class="lamp">
+        <img src="images/light.png" class="light" id="light">
+        <img src="images/undraw_fall_thyk-removebg-preview.png" class="design">
+    </div>
+
+
+        <div class="letter">
+            <a class="logo" id="hi" href="secondpage.html"><button class="lov">Hi, Kamusta</button></a>
+            
+            
+        </div>
+    </div>
+    
+     <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+        var logo = document.getElementById("hi");
+
+        function toggleBtn(){
+            btn.classList.toggle("active")
+            light.classList.toggle("on")
+            logo.classList.toggle("show")
+        }
+     </script>
+
+</body>
+</html>
